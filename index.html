@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amro school</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <header class="navbar-fixed-top vw-100" style="position: fixed;z-index: 2;">
+        <nav class="navbar navbar-expand-lg  navbar-fixed-top vw-100" style="position: fixed;z-index: 200px;">
+            <div class="container-fluid border-bottom-0-success">
+                <img class="logo-image" src="Images/logoo.png" style="height: 3rem; width: 4rem;" alt="profile Image">
+                <button class="navbar-toggler bg-primary-subtle " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse margin-nav-link" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0 mt-1 ">
+                        <li class="nav-item nav-link-effect rounded-3">
+                            <a class="nav-link   fs-5  ms-3 me-3 "
+                                aria-current="page" href="">HOME</a>
+                        </li>
+                        <li class="nav-item nav-link-effect rounded-3">
+                            <a class="nav-link   fs-5 ms-3 me-3 "
+                                href="">ABOUT</a>
+                        </li>
+                        <li class="nav-item nav-link-effect rounded-3">
+                            <a class="nav-link   fs-5 ms-3 me-3 "
+                                href="">CONTACT</a>
+                        </li>
+                        <li class="nav-item nav-link-effect rounded-3">
+                            <a class="nav-link   fs-5 ms-3 me-3 "
+                                href="">COURSES</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section" style="padding-top: 10rem; width: 100%;">
+            <div class="container position-relative aos-init aos-animate" data-aos="zoom-in" data-aos-delay="3000">
+                <h1 data-aos="zoom-in-right" data-aos-delay="500">Learning Today,<br>Leading Tomorrow</h1>
+                <h2 data-aos="fade-left" data-aos-delay="800">Amro Alkhazale high school website ,JavaScript DOM Task</h2>
+                <a href="courses.html" class="btn-get-started">Get Started</a>
+              </div>
+
+        </section>
+        <section class="pt-5" style="background-color: #dceef8;">
+            <div class="container">
+                <div class="row ">
+                    <div class=" col-lg-4 ">
+                        <div data-aos="zoom-in" data-aos-delay="500" class="form-body p-2 pt-4 mb-5 rounded-3" style="background-color: #ffffff;box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.559);">
+                            <div class="row">
+                                <div class="form-holder">
+                                    <div class="form-content">
+                                        <div class="form-items">
+                                            <h2>Register a new student</h2>
+                                            <h6>Fill in the data below.</h6>
+                                            <form id="student-form">
+                                                <div class="col-md-12">
+                                                    <input class="form-control" type="text" name="name" placeholder="Full Name"
+                                                        required>
+                                                    <div class="valid-feedback">Username field is valid!</div>
+                                                    <div class="invalid-feedback">Username field cannot be blank!</div>
+                                                </div>
+        
+                                                <div class="col-md-12">
+                                                    <input class="form-control" type="date" name="date" required>
+                                                    <!-- <div class="valid-feedback">Phone field is valid!</div>
+                                                             <div class="invalid-feedback">Phone field cannot be blank!</div> -->
+                                                </div>
+        
+                                                <div class="col-md-12">
+                                                    <input class="form-control" type="number" name="number"
+                                                        placeholder="Phone number" required>
+                                                    <div class="valid-feedback">Phone field is valid!</div>
+                                                    <div class="invalid-feedback">Phone field cannot be blank!</div>
+                                                </div>
+        
+                                                <div class="col-md-12">
+                                                    <input class="form-control" type="text" name="grade" placeholder="Grade"
+                                                        required>
+                                                    <div class="valid-feedback">Grade field is valid!</div>
+                                                    <div class="invalid-feedback">Grade field cannot be blank!</div>
+                                                </div>
+        
+        
+                                                <div class="col-md-12 mt-3">
+                                                    <label class="mb-3 mr-1" for="gender">Gender: </label>
+        
+                                                    <input type="radio" class="btn-check" name="gender" value="male" id="male"
+                                                        autocomplete="off" required>
+                                                    <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+        
+                                                    <input type="radio" class="btn-check" name="gender" value="female" id="female"
+                                                        autocomplete="off" required>
+                                                    <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+        
+                                                    <div class="valid-feedback mv-up">You selected a gender!</div>
+                                                    <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                                </div>
+        
+        
+                                                <div class="form-button mt-3 mb-5">
+                                                    <button id="submit" type="submit" class="btn-submit">Register</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        </form>
+                    </div>
+                    <div class="col">
+                        <table id="table" class="table table-dark" data-aos="fade-left" data-aos-delay="700">
+                            <tr>                            
+                                <th>Full Name</th>
+                                <th>Date Of Birth</th>
+                                <th>Phone Number</th>
+                                <th>Grade</th>
+                                <th>Gender</th>
+                            </tr>
+
+                        </table>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footers text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center text-black p-3" >
+            © 2023 Copyright:
+            <a class="text-black" href="">Amro Alkhazaleh</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>  
+</body>
+</html>
