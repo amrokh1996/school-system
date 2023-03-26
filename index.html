@@ -86,10 +86,21 @@
                                                 </div>
         
                                                 <div class="col-md-12">
-                                                    <input class="form-control" type="text" name="grade" placeholder="Grade"
-                                                        required>
-                                                    <div class="valid-feedback">Grade field is valid!</div>
-                                                    <div class="invalid-feedback">Grade field cannot be blank!</div>
+                                                    <select name="magor" class="form-control mt-3" id="magor" required>
+                                                        <option value="Administration">Administration</option>
+                                                        <option value="IT">IT</option>
+                                                        <option value="Science">Science</option>
+                                                        <option value="Art">Art</option>
+                                                      </select>
+                                                    <!-- <input class="form-control" type="text" name="magor" placeholder="Ex:software engineer"
+                                                        required> -->
+                                                    <div class="valid-feedback " >magor field is valid!</div>
+                                                    <div class="invalid-feedback">magor field cannot be blank!</div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <input class="form-control" type="text" name="image" placeholder="your Image Url"
+                                                        >
                                                 </div>
         
         
@@ -122,8 +133,9 @@
         
                         </form>
                     </div>
-                    <div class="col">
-                        <table id="table" class="table table-dark" data-aos="fade-left" data-aos-delay="700">
+                    <div class="col bg-in">
+                        <div id="student-card" style="display: flex;width:100%;flex-wrap: wrap;"></div>
+                        <!-- <table id="table" class="table table-dark" data-aos="fade-left" data-aos-delay="700">
                             <tr>                            
                                 <th>Full Name</th>
                                 <th>Date Of Birth</th>
@@ -132,7 +144,7 @@
                                 <th>Gender</th>
                             </tr>
 
-                        </table>
+                        </table> -->
                     </div>
         
                 </div>

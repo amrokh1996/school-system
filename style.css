@@ -109,6 +109,9 @@
 margin-top: 1rem;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.489)
 }
+select{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.489)
+  }
 table tr:nth-child(even){
   background-color: #ffffff;
 }
@@ -137,6 +140,7 @@ footer{
 
     
 }
+
 .hero-section h2 {
   font-size: 18px;
   line-height: 24px;
@@ -146,4 +150,17 @@ footer{
 }
 
 
+}
+
+@media (max-width: 768px){
+  .cardwidth{
+    width: 20rem;
+ 
+  }
+}
+@media (min-width: 768px){
+  .cardwidth{
+    width: 13rem;
+ 
+  }
 }
