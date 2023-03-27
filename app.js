@@ -40,11 +40,11 @@ arr.push(s1)
  localStorage.setItem("studentcard",JSON.stringify(arr))
 
     card.innerHTML+=`
-    <div class="cardwidth card text-white bg-info m-3" style="box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.489)">
+    <div class="cardwidth card text-white bg-info-subtle m-3" style="box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.489)">
   <div class="card-header text-center"><img src="${image}" class="rounded-circle h-75 w-75" alt="profile Image "></div>
   <div class="card-body">
-    <h3 class="card-title text-center">${namee}</h3>
-    <h6 class="card-title text-center">${magor}</h6>
+    <h3 class="card-title text-center text-dark">${namee}</h3>
+    <h6 class="card-title text-center text-dark">${magor}</h6>
     <ul class="list-group list-group-flush rounded-3">
     <li class="list-group-item">Birth: ${date}</li>
     <li class="list-group-item">Gender: ${gender}</li>
